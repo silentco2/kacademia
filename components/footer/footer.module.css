@@ -1,0 +1,16 @@
+.footer{
+    padding: 1.5rem 2rem;
+    border-radius: 0;
+}
+.footerContent{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerLink{
+    display: inline-flex;
+    align-items: center;
+    margin: 0 .5rem;
+    color: var(--sub-text-color);
+} 
+.footerIcon{margin-right: .25rem;}

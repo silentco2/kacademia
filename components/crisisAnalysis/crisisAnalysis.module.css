@@ -1,0 +1,43 @@
+.crisis{
+    padding: 1.5rem;
+}
+.crisisContainer{
+    display: flex;
+    align-items: start; 
+}
+.students{
+    flex-grow: 1;
+    list-style: none;
+}
+.student:not(:first-of-type){
+    margin-top: 1rem;
+}
+.badge{
+    font-size: .8rem;
+    font-weight: normal;
+    margin-left: .5rem;
+    padding: .2rem .5rem;
+    border-radius: 1rem;
+    color: var(--percent-color);
+    background-color: var(--percent-bgcolor);
+    user-select: none;
+    transition: all .2s;
+}
+.badge:hover{background-color: #18181BCC;}
+.progress{
+    height: .5rem;
+    width: 100%;
+    appearance: none;
+    margin: .5rem 0;
+}
+.progress::-webkit-progress-bar {
+  background-color: var(--progress-background);
+  border-radius: .5rem;
+}
+.progress::-webkit-progress-value {
+  background-color: var(--progress-value);
+  border-radius: .5rem;
+}
+.smallText{color: var(--small-text-color);}
+
+.diffculties{margin-bottom: 1rem;}
