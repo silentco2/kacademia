@@ -5,3 +5,4 @@
     gap:2rem;
     align-items: center;
 }
+@media (width < 750px){.header{padding: 1rem;}}

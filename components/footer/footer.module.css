@@ -14,3 +14,10 @@
     color: var(--sub-text-color);
 } 
 .footerIcon{margin-right: .25rem;}
+@media (width < 750px){
+    .footerContent{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1rem;
+    }
+}

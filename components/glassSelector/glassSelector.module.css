@@ -1,7 +1,6 @@
 .menu{
     display: inline-flex;
     flex-wrap: wrap;
-    
     margin: 1rem 0;
     padding: .5rem;
     border-radius: .3rem;
@@ -17,3 +16,10 @@
     border: 1px transparent;
 }
 .active{color: inherit;}
+
+@media (width < 750px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+}

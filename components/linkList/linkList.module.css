@@ -7,5 +7,6 @@
 @media (width < 1000px) {
     .list{
         grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
     }
 }

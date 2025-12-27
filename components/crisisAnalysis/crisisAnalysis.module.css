@@ -39,5 +39,12 @@
   border-radius: .5rem;
 }
 .smallText{color: var(--small-text-color);}
-
 .diffculties{margin-bottom: 1rem;}
+
+@media (width < 750px){
+    .crisisContainer{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .students{width: 100%;}
+}

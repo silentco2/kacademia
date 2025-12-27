@@ -34,3 +34,9 @@ p{color: var(--sub-text-color);}
     backdrop-filter: blur(10px);
     border: 1px solid rgba(var(--glass-color) / 0.2);
 }
+
+@media (width < 750px){
+    h1,h2{font-size: 1.25rem;}
+    h3{font-size: 0.75rem;}
+    p{font-size: 0.75rem;}
+}
