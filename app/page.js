@@ -1,4 +1,4 @@
-import { ClipboardList, GraduationCap, TrendingUp, UsersRound, Play, Plus, Sparkles } from "lucide-react"
+import { ClipboardList, GraduationCap, TrendingUp, Play, Plus, Sparkles, Presentation } from "lucide-react"
 import Header from "../components/header/header";
 import DataList from "../components/linkList/dataList";
 import AnalyticsBoard from "../components/analyticsBoard/analyticsBoard";
@@ -8,7 +8,7 @@ import QuickList from "../components/linkList/quickList"
 import Footer from "../components/footer/footer";
 import Classes from "./page.module.css";
 const data = [
-    {title:'Total Classes', content:'2', color:'blue', icon:<UsersRound/>}, 
+    {title:'Total Classes', content:'2', color:'blue', icon:<Presentation/>}, 
     {title:'Total Students', content:'1', color:'purple', icon:<GraduationCap/>}, 
     {title:'Active Quizzes', content:'2', color:'rose', icon:<ClipboardList/>}, 
     {title:'Average Class Score', content:'20 %', color:'green', icon:<TrendingUp/>}

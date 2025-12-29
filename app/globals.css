@@ -13,6 +13,9 @@
   --percent-bgcolor:rgb(248 113 133 / 0.2);
   --progress-value:black;
   --progress-background:white;
+  --scrollbar-color:#f2f2f2;
+  --scrollbar-color-hover:rgb(242 242 242 / .8);
+  --scrollbar-background:#555;
 }
 /*themes*/
 [user-theme='purple']{--background: linear-gradient(to right bottom, #6366f1, #a855f7,#ec4899);}
